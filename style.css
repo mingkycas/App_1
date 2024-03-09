@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.circle img {
+    width: 200px; /* Adjust based on your preference */
+    height: 200px; /* Adjust to keep the aspect ratio */
+    border-radius: 50%; /* Creates the circle */
+    object-fit: cover; /* Adjusts the image to fit the circle */
+    padding: 8px;
+}
+
+.title {
+    margin-top: 10px;
+}
